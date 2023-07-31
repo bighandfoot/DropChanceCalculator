@@ -1,5 +1,6 @@
 package Calculator;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -62,8 +63,7 @@ public class Main {
                     } else {
 
                         System.out.println("Drop Chance:");
-                        System.out.println(personalOdds + "%");
-                        System.out.println(1 + "/" + (ratio));
+                        System.out.format("%.5f or 1/%.1f\n", personalOdds, ratio);
                     }
                 } else {
                     throw new Exception("You Must Choose Between an Item and a Mob!");
