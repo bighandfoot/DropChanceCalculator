@@ -63,7 +63,7 @@ public class Main {
                     } else {
 
                         System.out.println("Drop Chance:");
-                        System.out.format("%.5f or 1/%.0f\n", personalOdds, ratio);
+                        System.out.format("%.7f or 1/%.0f\n", personalOdds, ratio);
                     }
                 } else {
                     throw new Exception("You Must Choose Between an Item and a Mob!");
