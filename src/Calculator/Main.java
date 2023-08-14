@@ -44,7 +44,7 @@ public class Main {
                     if (magic == 0 || magic < 0) {
                         throw new Exception("Magic Find Cannot Be Lower Than Or Equal to 0!");
                     }
-                    if (magic > 350) {
+                    if (magic > 430) {
                         throw new Exception("Magic Find Cannot Be That High!");
                     }
                     Scanner looting = new Scanner(System.in);
