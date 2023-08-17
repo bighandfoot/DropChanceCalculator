@@ -44,7 +44,7 @@ public class Main {
                     if (magic == 0 || magic < 0) {
                         throw new Exception("Magic Find Cannot Be Lower Than Or Equal to 0!");
                     }
-                    if (magic > 430) {
+                    if (magic > 350) {
                         throw new Exception("Magic Find Cannot Be That High!");
                     }
                     Scanner looting = new Scanner(System.in);
@@ -63,8 +63,8 @@ public class Main {
                     } else {
 
                         System.out.println("Drop Chance:");
-                        DecimalFormat df = new DecimalFormat("##,##,###.#");
-                        System.out.format("%.6f or 2/%s\n", personalOdds, df.format(ratio));
+                        DecimalFormat df = new DecimalFormat("##,##,###.##");
+                        System.out.format("%.6f or 1/%s\n", personalOdds, df.format(ratio));
                     }
                 } else {
                     throw new Exception("You Must Choose Between an Item and a Mob!");
