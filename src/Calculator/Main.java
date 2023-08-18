@@ -64,7 +64,7 @@ public class Main {
 
                         System.out.println("Drop Chance:");
                         DecimalFormat df = new DecimalFormat("##,##,###.##");
-                        System.out.format("%.6f or 1/%s\n", personalOdds, df.format(ratio));
+                        System.out.format("%.7f or 1/%s\n", personalOdds, df.format(ratio));
                     }
                 } else {
                     throw new Exception("You Must Choose Between an Item and a Mob!");
